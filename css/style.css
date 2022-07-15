@@ -1,0 +1,248 @@
+body{
+    background-color: #000;
+    color: white;
+}
+#logo{
+    color: #FFF;
+}
+ul {
+    display: flex ;
+    list-style: none;
+}
+#header{
+    background: #000;
+   height: 80px;
+   padding: 30px 0px 35px;
+
+}
+
+.header_contener{
+    background-color: #000;
+    justify-content: space-around;
+    width: 1110px;
+  
+
+}
+
+a{
+    padding: 0 15px;
+    color: #FFF;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400px;
+    text-decoration: none;
+}
+a:hover{
+    color: #FEA628;
+    text-decoration: none;
+}
+
+#banner-content{
+    padding-left: 0px;
+
+}
+.banner-title{
+    line-height:35px ;
+    margin-top: 100px;
+}
+img {
+    width: 100%;
+}
+img .banner{
+   max-width: 1000px;
+   width: auto;
+
+}
+
+.contact-form{
+    background: #FEA628;
+    /* margin: 54px 0 ; */
+    padding: 40px 65px 27px;
+    background-image: url(images/ct-form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    background-color: black;
+    opacity: 0.6;
+    /* color: white; */
+    
+}
+.field-group {
+    justify-content:center;
+   
+}
+
+.field-input input{
+    display: flex;
+    flex: 0 0 50%;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 14px 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #999999;
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    background: #E3E3E3;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+}
+
+.field-contact{
+    display: flex;
+    width: 100%;
+    
+}
+.field-check{
+    display: block;
+}
+.field-check span {
+    width: 25px;
+    height: 25px;
+    
+}
+ textarea {
+    width: 100%;
+    font-style: normal;
+    font-family: 'Lexend', sans-serif;
+    height: 180px;
+    padding: 0px 20px;
+    background: #E3E3E3;
+    font-size: 16px;
+    border: none;
+    resize: none;
+}
+
+.buttonSubmit {
+    width: 100%;
+    height: 90px;
+   
+}
+
+.buttonSubmit1 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.socials {
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    background-color: #000;
+}
+.full {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconLogo {
+    width: 15%;
+    height: 70px;
+}
+
+.fullwidth{
+    width: 80%;
+    height: 80%;
+}
+
+.footer {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #202022;
+    color:white;
+    padding-top: 40px;
+}
+.blockFooter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.firstFooter {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.secondFooter {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.firstFooter1 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.firstFooter2 {
+    width: 48%;
+    height: 100%;
+}
+
+.footerChild1{
+    width: 100%;
+    height: 45%;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    display: flex;
+}
+.footerChild2{
+    width: 100%;
+    height: 45%;
+}
+.headeText{
+    font-weight: bold;
+    font-size: 19px;
+}
+.blockSecond {
+    width: 100%;
+    height: 100%;
+}
+.second1{
+    width: 100%;
+    height: 50%;
+}
+
+.second2{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+}
+.flex {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.a {
+    color: #000;
+}
